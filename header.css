@@ -1,0 +1,106 @@
+.header {
+    top: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin-top: none;
+    height: 70px;
+    align-items: center;
+    position: sticky;
+    
+    
+    
+
+}
+
+
+    .shop{
+    margin-left: 200px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #00008B;
+    font-size: 17px;
+
+
+    }
+
+    .shop:hover{
+text-decoration: underline;
+color: #03038a;
+transition: width 0.3s ease;
+cursor: pointer;
+
+
+    }
+
+
+    .member{
+        font-weight: bold;
+        color: #00008B;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    .member:hover{
+        text-decoration: underline;
+        color: #03038a;
+
+        cursor: pointer;
+    }
+
+    .Doctor{
+        width: 100px;
+        padding: 7px 13px;
+        border: 2px solid #00008B;
+        border-radius: 22px;
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #00008B;
+        
+    }
+
+
+
+button{
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    color: #00008B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Doctor:hover {
+    color: #87CEEB;
+        cursor: pointer;
+}
+    .search-bar {
+        width: 220px;
+        padding: 10px;
+        border: 2px solid #00008B;
+        border-radius: 25px;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: -5px;
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+    }
+    
+    .search-bar:focus {
+        border-color: #3498db;
+       
+    }
+
+    
+.search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #fff;
+    
+}
+.uchlogo{
+    height: 50px;
+    margin-left: 35px;
+}

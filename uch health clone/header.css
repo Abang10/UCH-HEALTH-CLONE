@@ -1,0 +1,70 @@
+.header {
+    top: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray; 
+    justify-content: space-between;
+    margin-top: none;
+    height: 70px;
+    align-items: center;
+    ;
+    
+    
+
+}
+
+.logo{
+    
+    
+    }
+    .shop{
+    margin-left: 200px;
+
+    }
+    .member{
+    
+    }
+    .Doctor{
+        width: 100px;
+        padding: 8px 15px;
+        border: 2px solid #00008B;
+        border-radius: 20px;
+        font-size: 16px;
+        color: #00008B;
+    }
+
+button{
+    border: none;
+    background-color: white;
+}
+
+
+    .search-bar {
+        width: 250px;
+        padding: 10px;
+        border: 2px solid #00008B;
+        border-radius: 20px;
+        font-size: 16px;
+        
+    }
+    
+    .search-bar:focus {
+        border-color: #3498db;
+    }
+
+    
+.search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #fff;
+    
+}
+.uchlogo{
+    height: 50px;
+    margin-left: 35px;
+}
