@@ -1,15 +1,18 @@
 .header {
     top: 0px;
     background-color: white;
-    display: flex;
-    flex-direction: row; 
+    display: flex; 
     justify-content: space-between;
     margin-top: none;
     height: 70px;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
     
-    
+   
     
 
 }
@@ -17,90 +20,80 @@
 
     .shop{
     margin-left: 200px;
+    color: #002677;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #00008B;
-    font-size: 17px;
-
 
     }
-
-    .shop:hover{
-text-decoration: underline;
-color: #03038a;
-transition: width 0.3s ease;
-cursor: pointer;
-
-
-    }
-
-
-    .member{
-        font-weight: bold;
-        color: #00008B;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+    .member{
+    
+        color: #002677;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
     }
+
+    .shop:hover,
     .member:hover{
-        text-decoration: underline;
-        color: #03038a;
-
         cursor: pointer;
+        text-decoration: underline;
     }
 
-    .Doctor{
-        width: 100px;
-        padding: 7px 13px;
-        border: 2px solid #00008B;
-        border-radius: 22px;
-        font-size: 14px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #00008B;
+
+    .search-bar {
+        width: 200px;
+        padding: 10px;
+        border: 2px solid #002677;
+        border-radius: 20px;
+        font-size: 16px;
         
     }
-
-
-
-button{
-    border: none;
-    background-color: white;
-    font-weight: bold;
-    color: #00008B;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.Doctor:hover {
-    color: #87CEEB;
-        cursor: pointer;
-}
-    .search-bar {
-        width: 220px;
-        padding: 10px;
-        border: 2px solid #00008B;
-        border-radius: 25px;
-        font-size: 18px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        height: -5px;
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-    }
     
-    .search-bar:focus {
-        border-color: #3498db;
-       
-    }
+ .search-container img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+ }
 
+ .search-container input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    
+
+
+ }
     
 .search-container {
-    display: flex;
+     display: flex;
     align-items: center;
-    border-radius: 30px;
+    width: 200px;
     padding: 5px;
-    background-color: #fff;
+    border: 2px solid#002677;
+    border-radius: 20px;
+    margin-right: 20px;
     
 }
 .uchlogo{
     height: 50px;
     margin-left: 35px;
+}
+
+button{
+    background-color: #FFFF;
+    padding: 11px 20px;
+    border-radius: 30px;
+    color: #002677;
+    border: 2px solid #002677;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+button:hover{
+    cursor: pointer;
+    color: #196ecf;
+    border-color: #196ecf;
+    transition: color 0.3s ease;
 }
