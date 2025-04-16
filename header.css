@@ -97,3 +97,10 @@ button:hover{
     border-color: #196ecf;
     transition: color 0.3s ease;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    
+    }}
