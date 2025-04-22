@@ -1,0 +1,106 @@
+.header {
+    top: 0px;
+    background-color: white;
+    display: flex; 
+    justify-content: space-between;
+    margin-top: none;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+   
+    
+
+}
+
+
+    .shop{
+    margin-left: 200px;
+    color: #002677;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    }
+    
+    .member{
+    
+        color: #002677;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .shop:hover,
+    .member:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+
+    .search-bar {
+        width: 200px;
+        padding: 10px;
+        border: 2px solid #002677;
+        border-radius: 20px;
+        font-size: 16px;
+        
+    }
+    
+ .search-container img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+ }
+
+ .search-container input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    
+
+
+ }
+    
+.search-container {
+     display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid#002677;
+    border-radius: 20px;
+    margin-right: 20px;
+    
+}
+.uchlogo{
+    height: 50px;
+    margin-left: 35px;
+}
+
+button{
+    background-color: #FFFF;
+    padding: 11px 20px;
+    border-radius: 30px;
+    color: #002677;
+    border: 2px solid #002677;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+button:hover{
+    cursor: pointer;
+    color: #196ecf;
+    border-color: #196ecf;
+    transition: color 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    
+    }}
